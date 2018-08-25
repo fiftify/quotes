@@ -8,6 +8,7 @@ import Amplify from 'aws-amplify';
 import configuration from './aws-exports';
 
 Amplify.configure(configuration);
+Amplify.Analytics.disable();
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

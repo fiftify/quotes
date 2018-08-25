@@ -26,5 +26,9 @@ features:
             require-numbers: true
             require-symbols: false
             require-upper-case: false
+  user-files: !com.amazonaws.mobilehub.v0.UserFiles 
+    attributes:
+      enabled: true
+      wildcard-cors-policy: true
 name: quotes-2018-08-25-18-31-21
 region: us-east-1
